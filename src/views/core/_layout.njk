@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {# Global Meta Tags #}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  {# Page Title block (shop name by default) #}
+  {% block title %}
+    <title>Webpack/Sass/Nunjucks Boilerplate</title>
+  {% endblock title %}
+
+  {# Page Styles block #}
+  {% block styles %}
+  {% endblock styles %}
+
+  {# Page Scripts block #}
+  {% block scripts %}
+  {% endblock scripts %}
+</head>
+<body>
+  <div id="app">
+    {% block content %}
+    {% endblock content %}
+  </div>
+</body>
+</html>

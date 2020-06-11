@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import 'core/globals';
+
+h1,
+span {
+  font-family: 'Balsamiq Sans', sans-serif;
+  margin: auto;
+}
+
+h1 {
+  color: $title-color;
+  padding: 0 5vw;
+  text-align: center;
+}
+
+img {
+  height: 50vh;
+  margin: auto;
+}
+
+span {
+  color: $span-color;
+}

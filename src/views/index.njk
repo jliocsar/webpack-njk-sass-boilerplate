@@ -1,0 +1,14 @@
+{# Inherit global layout #}
+{% extends "core/_layout.njk" %}
+
+{# Index script block #}
+{% block script %}
+  <link rel="stylesheet" href="index.css" />
+{% endblock script %}
+
+{# Index content block #}
+{% block content %}
+  <h1>Webpack, Sass & Nunjucks Boilerplate</h1>
+  <img src="https://image.flaticon.com/icons/svg/867/867876.svg" />
+  <span>Use wisely ☕</span>
+{% endblock content %}
