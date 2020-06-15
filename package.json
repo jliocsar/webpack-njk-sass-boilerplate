@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "server": "NODE_ENV=development webpack-dashboard -- webpack-dev-server -d --hot --watch --mode development",
-    "build:dev": "NODE_ENV:test webpack --mode none",
-    "build:prod": "NODE_ENV:production webpack --mode production"
+    "build:dev": "NODE_ENV=test webpack --mode none",
+    "build:prod": "NODE_ENV=production webpack --mode production"
   },
   "keywords": [],
   "author": "",
