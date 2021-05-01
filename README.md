@@ -21,17 +21,16 @@ This repo is a boilerplate to start a simple Webpack project using Sass/SCSS for
 
 ## Scripts 📜
 
-- Run the live server (hot-reload) in debug mode & dev mode:
+- Run the live server (hot-reload) in debug mode & dev mode (available @ localhost:3000):
 
-		npm run server
+		yarn server
 
 - Build in dev. mode:
 
-		npm run build:dev
+		yarn build:dev
 
 - Build in prod. mode:
 
-		npm run build:prod
-
+		yarn build:prod
 
 > Written with [StackEdit](https://stackedit.io/).
